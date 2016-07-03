@@ -25,8 +25,12 @@ var chart = new Chartist.Line('.ct-chart', {
 }, {
   plugins: [
     Chartist.plugins.lineChartLabels({
-      labels: ['Max', 'Min']
+      labels: ['Max', 'Used']
     })
   ]
 });
 ```
+
+## Example result
+
+![](labels.png)
