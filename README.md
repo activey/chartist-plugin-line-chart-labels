@@ -6,6 +6,7 @@ Please visit http://gionkunz.github.io/chartist-js/plugins.html for more informa
 
 ```javascript
 var defaultOptions = {
+  chartId: 'line-chart', // unique chart id for separating svg paths
   labels: [], // An array of chart labels for chart series
   labelClass: 'ct-label', // Default css class for chart label
   labelOffset: {
